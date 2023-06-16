@@ -627,6 +627,10 @@ nav .nav-links {
     font-size: 1.5vw;
 }
 
+.mobile-view-industry{
+    display: none;
+}
+
 .industry h5 {
     font-weight: 100;
 
@@ -704,15 +708,20 @@ footer {
 .newsletter div i {
     color: #D3FF1A;
     transform: rotate(-30deg);
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .newsletter button {
     border: none;
     font-size: 1vw;
-    width: 6rem;
+    width: 3rem;
     border-radius: 0;
 
+
+}
+
+.newsletter input:focus {
+    color: #fff;
 }
 
 
@@ -735,9 +744,26 @@ footer {
     padding: 1vw;
 }
 
-.send-mb {
-    display: none;
+
+
+.send-mb{
+    display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 1.2vw !important;
+        font-family: n27;
+        background-color: #1F1E1E;
+        outline: none;
+        color: #E7E7E7;
+        text-transform: uppercase;
+        align-items: center;
+        line-height: 1.4rem;
 }
+
+
 
 
 @media only screen and (max-width: 500px) {
@@ -938,6 +964,8 @@ footer {
         border-bottom: 1px solid #1F1E1E;
         padding: 5vw 2vw;
     }
+
+
 
 
 
